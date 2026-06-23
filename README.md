@@ -7,8 +7,23 @@ Work done for summer internship with Door Shakespeare, a nonprofit performing ar
 
 ### Technologies
 ---
-`Python`
-`Jupyter Notebook`
-`VADER`
-`RoBERTa`
-`BERTOPIC`
+`Python`  
+`Jupyter Notebook`  
+`Pandas`  
+`NLTK's VADER`  
+`HuggingFace's RoBERTa`  
+`BERTOPIC`  
+`Scikit-learn`  
+`Seaborn`  
+`Matplotlib`  
+
+### The Process
+---
+- Webscraping using Apify and Make.com performed to gather reviews across five nonprofit performing arts venues
+- Cleaned data for ease of use and increased accuracy later in the project
+- Initialized VADER model and performed baseline sentiment analysis modeling
+- Initialized RoBERTa model and performed fine-tuned sentiment analysis
+- Used classification report to compare metrics across both models
+- Initialized BERTopic model for unsupervised learning in order to find sentiment themes
+- Visualized topic modeling results
+- Applied business logic and industry knowledge to find actionable results and improve customer satisfaction
