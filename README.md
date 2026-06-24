@@ -1,6 +1,6 @@
 # Rural Theater Reviews NLP Pipeline
 
-A dual-model sentiment analysis pipeline using VADER and RoBERTA to analyze theater reviews, evaluated with a full classification framework including precision, recall, and F1.
+A dual-model sentiment analysis pipeline using VADER and RoBERTa to analyze theater reviews, evaluated with a full classification framework including precision, recall, and F1.
 Layered in BERTopic topic modeling to surface 19 distinct themes across the reviews, giving the organization its first structured understanding of audience perception.
 
 Work done for a summer internship with Door Shakespeare, a nonprofit performing arts company in Door County, Wisconsin.
@@ -63,4 +63,4 @@ VADER over-classified reviews as neutral, a known limitation of lexicon-based ap
 Operational topics had the lowest average satisfaction of any category (4.51 avg stars, 0.78 avg sentiment), well below Performance (4.81, 0.91) and Tourism Context (4.90, 0.94).
 Audiences at rural performing arts venues are highly satisfied with the artistic experience, whereas dissatisfaction is almost entirely driven by operational issues, with a focus on seating and ticketing.
 
-Venue-level topic distributions revealed meaningful differences in what each organization's audiences dissuss, with Northern Sky reveiws defined by environment and performer talent, TAP dominated by general enjoyment, and Door Shakespeare showing the highest seating complaint concentration of any venue.
+Venue-level topic distributions revealed meaningful differences in what each organization's audiences discuss, with Northern Sky reviews defined by environment and performer talent, TAP dominated by general enjoyment, and Door Shakespeare showing the highest seating complaint concentration of any venue.
